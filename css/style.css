@@ -1,11 +1,9 @@
-/* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
-
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Banner part  */
+/************************ Banner part  ************************/
 
 .banner {
     background-image: url('../images/banner/banner3.png');
@@ -54,7 +52,7 @@
     align-items: flex-end;
 }
 
-/* Failures Part */
+/************************ Failures Part ************************/
 
 .failure {
     display: flex;
@@ -90,7 +88,7 @@
     padding-top: 20px;
 }
 
-/* Plans Part */
+/************************* Plans Part *************************/
 
 .plans-header {
     text-align: center;
@@ -146,3 +144,41 @@
 .image-fourth {
     padding-left: 10px;
 }
+
+/********************** Contact Part ************************/
+
+.contact {
+    background: url(../images/gradient1.png);
+    background-image: url("../images/watch.png"), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    background-blend-mode: overlay;
+    width: 1135px;
+    height: 301px;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+.contact-heading {
+    padding-top: 70px;
+    padding-left: 65px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.contact-btn {
+    padding: 12px 30px;
+    margin-top: 20px;
+    margin-left: 65px;
+    color: #005FAC;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    line-height: 23px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/********************** Blog Part ************************/
