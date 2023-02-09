@@ -96,6 +96,7 @@
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
+    font-size: 24px;
     line-height: 47px;
     color: #151414;
 }
@@ -182,3 +183,43 @@
 }
 
 /********************** Blog Part ************************/
+
+.blog-header {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.key-word {
+    color: crimson;
+}
+
+.blog-text {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    color: #444343;
+}
+
+.blog-details {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.blog-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+}
